@@ -32,7 +32,7 @@ export default function About() {
           </div>
           <img src="imgs/about.jpg" />
         </motion.div>
-        <div className="textSide col-lg-5 col-10">
+        <div className="textSide col-lg-5 col-12">
           <span>ABOUT FIXYLAND</span>
           <h2>world class luxury hotel and resort near city</h2>
           <p>
