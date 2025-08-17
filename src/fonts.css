@@ -1,9 +1,9 @@
 @font-face {
   font-family: syne;
-  src: url(fonts/Syne-Regular.ttf);
+  src: url("/fonts/Syne-Regular.ttf");
 }
 
 @font-face {
   font-family: landra;
-  src: url(fonts/LondrinaOutline-Regular.ttf);
+  src: url("/fonts/LondrinaOutline-Regular.ttf");
 }
