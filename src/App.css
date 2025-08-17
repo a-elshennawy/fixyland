@@ -1226,6 +1226,13 @@ body.light {
   }
 }
 
+.Loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* responsive */
 
 @media screen and (max-width: 1200px) {
