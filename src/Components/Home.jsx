@@ -1,5 +1,5 @@
 import About from "./About/About";
-import ContactInfoBar from "./ContactInfoBar/contactInfoBar";
+import ContactInfoBar from "./ContactInfoBar/ContactInfoBar";
 import FoodDrinks from "./FoodDrinks/FoodDrinks";
 import Footer from "./Footer/Footer";
 import Hero from "./Hero/Hero";
