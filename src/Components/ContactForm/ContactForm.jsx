@@ -56,7 +56,7 @@ export default function ContactForm() {
             <option value="4">4 children</option>
           </select>
         </div>
-        <button type="submit" className="subBtn col-lg-2 col-4">
+        <button type="submit" className="subBtn col-lg-2 col-5">
           Check now
           <GoArrowUpRight />
         </button>

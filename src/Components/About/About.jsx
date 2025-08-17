@@ -62,10 +62,10 @@ export default function About() {
             </li>
           </ul>
           <div className="perosn row justify-content-start align-items-center gap-1 m-0">
-            <div className="img col-2">
+            <div className="img col-lg-2 col-3">
               <img src="imgs/aboutPerson.jpg" />
             </div>
-            <div className="info col-5">
+            <div className="info col-lg-5 col-8">
               <h6>Robert L. Robinson</h6>
               <p>CEO & Founder</p>
             </div>
