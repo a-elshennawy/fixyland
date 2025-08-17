@@ -74,6 +74,10 @@ export default function Hero() {
               Contact <MdKeyboardArrowRight />
             </li>
           </ul>
+          <button>
+            Book your stay
+            <GoArrowUpRight />
+          </button>
         </div>
       </div>
       <div className="hero row justify-content-center align-items-center m-0">

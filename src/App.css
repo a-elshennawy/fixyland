@@ -86,6 +86,7 @@ body.light {
 .offcanvas {
   background-color: var(--mainColor) !important;
   color: #fff !important;
+  width: 60dvw !important;
 
   .offcanvas-header {
     button {
@@ -110,6 +111,48 @@ body.light {
       li {
         cursor: pointer;
         padding: 10px 0px;
+      }
+    }
+
+    button {
+      position: relative;
+      border: none;
+      border-radius: 5px;
+      background-color: #ffd768;
+      color: #000;
+      padding: 7px 10px;
+      transition: all 0.2s ease-in-out;
+      z-index: 1;
+
+      svg {
+        margin-inline-start: 5px;
+        transition: all 0.2s ease-in-out;
+        z-index: 1;
+      }
+
+      &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 5px;
+        content: "";
+        height: 100%;
+        width: 0%;
+        background-color: #000;
+        z-index: -1;
+        transition: all 0.3s ease-in-out;
+      }
+
+      &:hover {
+        color: #fff;
+
+        svg {
+          transform: rotate(45deg);
+        }
+
+        &::before {
+          width: 100%;
+        }
       }
     }
   }
