@@ -6,6 +6,7 @@
   --lightMainColor: #448c74c0;
   --dark: #000;
   --white: #fff;
+  font-size: 16px;
 }
 
 * {
@@ -825,20 +826,8 @@ body.light {
   }
 
   .imgSide {
-    position: relative;
-
-    .firstPic {
-      img {
-        margin-bottom: 100px;
-        border-radius: 10px;
-      }
-    }
-    .secPic {
+    img {
       border-radius: 10px;
-      img {
-        margin-top: 100px;
-        border-radius: 10px;
-      }
     }
   }
 }
@@ -1295,6 +1284,9 @@ body.light {
 }
 
 @media screen and (max-width: 992px) {
+  :root {
+    font-size: 13px;
+  }
   .hero {
     .contactForm {
       width: 90%;

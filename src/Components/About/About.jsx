@@ -13,7 +13,7 @@ export default function About() {
           className="img text-center col-10 col-lg-5"
         >
           <div class="circular-text">
-            <svg viewBox="0 0 100 100" width="150" height="150">
+            <svg viewBox="0 0 100 100" width="9.375erm" height="9.375rem">
               <path
                 id="circlePath"
                 d="M20,50a30,30 0 1,1 60,0a30,30 0 1,1 -60,0"

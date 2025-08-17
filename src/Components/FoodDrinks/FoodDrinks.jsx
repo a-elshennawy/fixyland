@@ -47,7 +47,7 @@ export default function FoodDrinks() {
             <FiArrowUpRight />
           </button>
         </div>
-        <div className="imgSide col-lg-6 col-12 row justify-content-center align-items-center gap-1">
+        <div className="imgSide col-lg-6 col-12 row justify-content-center align-items-center gap-2">
           <motion.div
             initial={{ y: -100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
